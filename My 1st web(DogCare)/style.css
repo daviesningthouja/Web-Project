@@ -1,0 +1,194 @@
+@import url(css/team.css);
+@import url(css/service.css);
+@import url(css/hover.css);
+:root{
+    --dsp: flex;
+    --pdng: 10px;
+    --brdr:30px;
+}
+html{
+    margin: 0;
+}
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* header */
+.mainHeader{
+    display: var(--dsp);
+    align-items: center;
+    background-color: hsla(12, 100%, 84%, 1);
+}
+.lghead{
+    margin-left: 20px;
+    margin-right: auto;
+    
+}
+a{
+    text-decoration: none;
+    color: #111111;
+}
+a img{
+    height: 30px;
+    width: 30px;
+}
+.lgtxt{
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+.bar{
+    display: var(--dsp);
+    list-style: none; 
+    padding: 0px; 
+    cursor: pointer;
+}
+.bar li{
+    padding: var(--pdng);
+    margin-right: 40px;   
+    font-size: 20px;
+    font-weight: bold;
+}
+.bar a{
+    text-decoration: none;
+    color: #111111;
+}
+/* bg section */
+.s1{
+    display: var(--dsp);
+    background-image: url(home/Shorewood_Staff_1.jpg);
+    opacity: 0.75;
+    height: 500px;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+}
+.s1box{
+    max-width: 900px;
+    min-width: 500px;
+    text-align: center;
+    font-family: Georgia, serif;
+    
+    border: thin #111111;
+    background-color: #ffffff73;
+    color: #050606fe;
+}
+.s1box p{
+    font-size: 20px;
+}
+/* body section */
+.body{
+    
+    margin: 100px;
+    text-align: center;
+}
+.oHome{
+    max-width: 900px;
+    min-width: 500px;
+    margin: 10px auto 50px auto;
+}
+.oTeam{
+    display: flex;
+    max-width: 1200px;
+    min-width: 500px;
+    margin: 0px auto 10px auto
+}
+.tmimg img{
+    height: 300px;
+}
+.tmimg{
+    width: max-content;
+    
+}
+.tmbox{
+    width: 667px;
+    height: 300px;
+    background-color: rgb(137, 22, 163);
+}
+.b1{
+    margin-top: 30px ;
+    width: 500px;
+    margin-left: auto ;
+    margin-right: auto;
+}
+.oService {
+    display: flex;
+    max-width: 1200px;
+    min-width: 500px;
+    
+    margin: 0px auto;
+}
+.simg{
+    width: max-content;
+    
+}
+.sbox{
+    width: 945px;
+    
+    height: 400px;
+    background-color: #c08e06f8;
+}
+.b2{
+    margin-top: 100px;
+    width: 700px;
+    margin-left: auto ;
+    margin-right: auto;
+}
+
+/*Footer*/
+.mainFooter{
+    display: flex;
+    justify-content: center;
+    background-color: #b7b7b7ec;
+    font-family: arial;
+    text-transform: capitalize;  
+}
+.box1{
+    width: 250px;
+
+}
+.box2{
+    margin-left: 200px;
+}
+.box2 ul{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    cursor: pointer;
+}
+.box2 li{
+    padding: 5px;
+}
+.fter{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* text style */
+.oHome h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+.oHome p{
+    font-family: Verdana;
+    font-size: 19px;
+    line-height: 29px;
+}
+.b1 , .b2{
+    
+    font-family: Garamond, serif;
+}
+.b1 h2, .b2 h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.b1 p, .b2 p{
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.oHome h2{
+    text-decoration: underline;
+}

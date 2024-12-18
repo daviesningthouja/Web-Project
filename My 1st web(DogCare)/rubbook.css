@@ -1,0 +1,301 @@
+.oTeam{
+    display: flex;
+    max-width: 1300px;
+    margin: 0px auto 10px auto ;
+   
+}
+.tming{
+    display: block;
+    
+}
+
+.tmimg img{
+    height: 300px; 
+    width: 500px;
+}
+.tmbox{
+    min-width: 766px;
+    background-color: aquamarine;
+    height: 300px ;
+    
+}
+.oService{
+    display: flex;
+}
+.sbox{
+    background-color: bisque;
+    max-width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+/* home body */
+/* my code copy */
+@import url(css/team.css);
+:root{
+    --dsp: flex;
+    --pdng: 10px;
+    --brdr:30px;
+}
+html{
+    margin: 0;
+}
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* header */
+.mainHeader{
+    display: var(--dsp);
+    align-items: center;
+    background-color: #e2cb5ded;
+}
+.lghead{
+   
+    margin-left: 20px;
+    margin-right: auto;
+}
+a img{
+    height: 30px;
+    width: 30px;
+}
+.lgtxt{
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+.bar{
+    display: var(--dsp);
+    list-style: none; 
+    padding: 0px; 
+    cursor: pointer;
+}
+.bar li{
+    padding: var(--pdng);
+    margin-right: 40px;   
+    font-size: 20px;
+    font-weight: bold;
+}
+.bar a{
+    text-decoration: none;
+    color: #111111;
+}
+/* bg section */
+.s1{
+    display: var(--dsp);
+    background-image: url(home/Shorewood_Staff_1.jpg);
+    opacity: 0.75;
+    height: 500px;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+}
+.s1box{
+    max-width: 900px;
+    min-width: 500px;
+    text-align: center;
+    font-family: Georgia, serif;
+    
+    border: thin #111111;
+    background-color: #ffffff73;
+    color: #050606fe;
+}
+.s1box p{
+    font-size: 20px;
+}
+/* body section */
+.body{
+    
+    margin: 100px;
+    text-align: center;
+}
+.oHome{
+    max-width: 900px;
+    min-width: 500px;
+    margin: 10px auto 50px auto;
+}
+.oTeam{
+    display: flex;
+    max-width: 1200px;
+    min-width: 500px;
+    margin: 0px auto 10px auto
+}
+.tmimg img{
+    height: 300px;
+}
+.tmimg{
+    width: max-content;
+    
+}
+.tmbox{
+    width: 667px;
+    height: 300px;
+    background-color: rgb(137, 22, 163);
+}
+.b1{
+    margin-top: 30px ;
+    width: 500px;
+    margin-left: auto ;
+    margin-right: auto;
+}
+.oService {
+    display: flex;
+    max-width: 1200px;
+    min-width: 500px;
+    
+    margin: 0px auto;
+}
+.simg{
+    width: max-content;
+    
+}
+.sbox{
+    width: 945px;
+    
+    height: 400px;
+    background-color: #c08e06f8;
+}
+.b2{
+    margin-top: 100px;
+    width: 700px;
+    margin-left: auto ;
+    margin-right: auto;
+}
+
+/*Footer*/
+.mainFooter{
+    display: flex;
+    justify-content: center;
+    background-color: #b7b7b7ec;
+   
+    
+}
+.box1{
+    width: 200px;
+
+}
+.box2{
+    margin-left: 200px;
+}
+.box2 ul{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+}
+.box2 li{
+    padding: 5px;
+}
+.fter{
+    display: flex;
+    justify-content: center;
+}
+#contentWrapper{
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.content {
+    display: flex;
+    flex-wrap: nowrap;
+}
+/* text style */
+.oHome h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+.oHome p{
+    font-family: Verdana;
+    font-size: 19px;
+    line-height: 29px;
+}
+.b1 , .b2{
+    
+    font-family: Garamond, serif;
+}
+.b1 h2, .b2 h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.b1 p, .b2 p{
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.oHome h2{
+    text-decoration: underline;
+}
+<div class="Wrapper">
+<div class="servBox">
+<h1>OUR SERVICES</h1>
+<p>
+    <b>
+    At our dog care home, we offer a comprehensive 
+    range of services designed to meet the diverse 
+    needs of both you and your furry companion. From 
+    overnight boarding to specialized grooming, our team 
+    is dedicated to providing top-notch care and attention
+    to every dog that walks through our doors.
+    </b>
+</p>
+</div>
+<div class="upBody">
+    <p>
+        <h2>
+            Overnight Boarding:
+        </h2>
+        When you need to be away from home, 
+        trust us to provide a safe and comfortable environment
+         for your dog to stay. Our spacious and cozy accommodations
+          ensure that your pup feels right at home while you're away, 
+          with plenty of room to stretch out, relax, and enjoy a good
+           night's sleep.
+    </p>
+    <p>
+        <h2>
+            Daycare:
+        </h2>
+        Whether you have a busy schedule or just want to give your 
+        dog some extra socialization and exercise, our daycare 
+        services are the perfect solution. With supervised playtime, 
+        interactive toys, and plenty of opportunities for socializing with
+         other dogs, your furry friend will have a blast while in our care.
+    </p>
+    <p>
+        <h2>
+            Grooming:
+        </h2>
+        Keep your dog looking and feeling their best with our professional grooming 
+        services. From baths and haircuts to nail trims and ear cleaning, our experienced
+        groomers will pamper your pup and leave them looking fresh and fabulous.
+    </p>    
+    <p>
+        <h2>
+            Training:
+        </h2>
+        Is your dog in need of some obedience training or behavior modification? Our 
+        certified trainers are here to help. Whether you're dealing with leash pulling
+        , excessive barking, or other behavioral issues, we'll work with you and your dog
+        to address the problem and create a training plan that's tailored to your needs
+    </p>
+    <p>
+        <h2>
+            Pet Sitting:
+        </h2>
+        Going out of town and can't take your dog with you? Our pet sitting 
+        services provide a convenient and stress-free alternative to traditional 
+        boarding facilities. With customizable care plans and personalized attention,
+        we'll ensure that your dog receives the love and care they deserve while you're 
+        away.
+    </p>
+    <p>
+        <h2>
+            Veterinary Care:
+        </h2>
+        Your dog's health and well-being are our top priorities. That's why we partner
+        with trusted veterinarians to provide routine check-ups, vaccinations, and other
+        medical services right here at our facility. With access to on-site veterinary
+        care, you can have peace of mind knowing that your dog is in good hands.
+    </p>
+</div>
+</div>
+<summary>At our dog care home, we're committed to providing the highest quality of care and services to every dog and owner that walks through our doors. Whether you're looking for overnight boarding, grooming, training, or just some extra TLC for your furry friend, we've got you covered. Contact us today to learn more about our services and how we can help you and your dog live your best lives together.</summary>

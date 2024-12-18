@@ -1,0 +1,41 @@
+#contentWrapper{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.emi img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.jam img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.em img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    gap: 5em;
+
+}
+.box{
+    background-color: hsla(214, 100%, 54%, 1);
+    border-radius: 10px;
+}
+figcaption{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.box p{
+    font-family: "open sans";
+    font-size: 15px;
+    line-height: 30px;
+    word-spacing: 3px;
+}

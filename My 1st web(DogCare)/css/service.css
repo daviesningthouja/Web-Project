@@ -1,0 +1,89 @@
+
+.bg{
+    background-image: url(/pract/homework/Project/service/hannah-lim-U6nlG0Y5sfs-unsplash.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    color: #ffffff;
+    font-family: verdana;
+    flex-wrap: wrap;
+    
+}
+.bg h1{
+    text-transform: capitalize;
+    position: relative;
+    top: -30px;
+    margin-top: 0px;
+    font-size: 10em;
+}
+.Wrapper{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    top: -100px;
+    
+    background-color: hsla(350, 78%, 96%, 1);
+    width: 1200px;
+    margin: 0px auto 0px auto;
+    font-family: "open sans";
+}
+.wrap1 img{
+    height: 300px;
+}
+.wrap2 img{
+    height: 300px;
+}
+.wrap3 img{
+    height: 300px;
+}
+.wrap4 img{
+    height: 500px;
+}
+.wrap5 img{
+    height: 300px;
+}
+.wrap1{ 
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.wrap2{ 
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.wrap3{ 
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.wrap4{ 
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.wrap5{ 
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.m{
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+.b{
+    margin: 0px auto 0px auto;
+    width: 600px;
+    line-height: 30px;
+}

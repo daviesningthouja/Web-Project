@@ -1,0 +1,45 @@
+@font-face {  font-family: 'roboto_r';src: url(Roboto-Regular.ttf);}
+body{font-family: "roboto_r";   margin: 0px; width: 100%; font-size:12px;}
+/* header */
+header{    display: flex;    justify-content: center ;    background-color: #000000;    color: #ffff;    flex-wrap: wrap;    }
+.sticky{    position: sticky;    top: 0;    z-index: 1;}
+/* header logo */
+.mainHeader{   margin-right: 100px;    text-transform: uppercase;    word-spacing: 5px;   }
+.mainHeader span{   margin: 0px 0px 0px 5px;}
+.mainHeader div{    margin-top: 5px;}
+.mainHeader a{  text-decoration: none; color:#ffffff }
+/* navigation */
+.navbar{	position: relative;  top:10px;  display: flex;	list-style: none;   align-items: center;	justify-content: space-around;	width: 600px; }
+input, label{	display: none;}
+/* ul list text decoration, bg colr, padding, txt trnsform */
+.list li{	text-transform: uppercase;	padding: 5px 10px;}
+.on{	background-color: hsla(78, 100%, 92%, 1);}
+.on a{	text-decoration: none;	color: #000000;}
+.menu a{	text-decoration: none;	color: hsla(78, 100%, 58%, 1);}
+li:hover a{		color: #ffffff;}
+/* footer */
+footer{text-align: center;background-color: hsla(341, 0%, 19%, 1);color: #ffff;padding: 20px 0px 15px 0px;}
+/* footer txt pding */
+.mainFoot p{text-transform: uppercase;/* font-family: Verdana, Geneva, Tahoma, sans-serif; */font-size:18px;}
+.bot a,.mail a{text-decoration: none;}
+.bot span, .mail span{color: hsla(78, 100%, 61%, 1);}
+.mainFoot{padding: 20px 0px;}
+.bot{font-size: 11px;margin-top: 20px;/* font-family: Verdana, Geneva, Tahoma, sans-serif; */text-transform: capitalize;}
+/*section Bmargin*/
+.bmargin{ margin-bottom: 60px;}
+/* hr footer */
+.foothr{width: 600px; margin: auto; }
+/*about us*/
+.wrapper{ display: flex; flex-direction: column; width:800px; margin: 0 auto 0 auto;}
+.bgwrapper{ background-color: hsla(78, 100%, 61%, 1);}
+.s1,.s2,.s4{text-align: center;}
+/*bgline*/
+.line{	background-image: url(../img/bar2.png);	background-position: center;	background-size: 500px;background-repeat: no-repeat;height: 80px;}
+/* s3 */
+.s3{background-color: hsla(78, 64%, 46%, 1)}
+/* fonts s1 s2 s3  */
+.s1 h1,.s2 h1,.s4 h1{ font-size: 2em; text-transform: capitalize;}
+.s1 p,.s2 p,.s4 p{ font-size: 1.3em; text-transform: capitalize;}
+/* s3 */
+.s3 li{ font-size: 1.2em; text-transform: capitalize;}
+.s3 ul{ box-sizing: border-box; padding:20px; padding-left: 30px;}
